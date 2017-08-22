@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.pkr.erp.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/todays_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Today's date"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#bdbdbd"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/todays_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="No Event, Normal classes"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#bdbdbd"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upcoming events"
+        android:textColor="#ffffff"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#bdbdbd"
+        android:layout_marginTop="16dp"/>
+    <ListView
+        android:id="@+id/events_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
